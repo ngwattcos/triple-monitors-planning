@@ -1,6 +1,8 @@
 import math
 
-l = float(input("Monitor size (in, diag): "))
+BEZEL_ALLOWANCE = 1
+
+l = float(input("Monitor size (in, diag): ")) + BEZEL_ALLOWANCE
 z = float(input("Monitor distance (in): "))
 
 w = 0.872 * l
